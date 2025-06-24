@@ -5,6 +5,19 @@ import "./globals.css"
 
 const inter = Inter({ subsets: ["latin"] })
 
+export const dynamic = 'force-dynamic'
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="pt-br">
+      <body>{children}</body>
+    </html>
+  )
+}
+
+
+
+
 export const metadata: Metadata = {
   title: "Planos de Saúde | Somos Saúde para Todos - Cobertura Completa e Preços Acessíveis",
   description:
